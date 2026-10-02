@@ -2,7 +2,7 @@ name: Katabump Auto Renew
 
 on:
   schedule:
-  - cron: '15 1 */3 * *'  # 避开 UTC 0点整点的服务器高峰期，改为 1点15分 运行
+  - cron: '13 1 */3 * *'  # 避开 UTC 0点整点的服务器高峰期，改为 1点15分 运行
   workflow_dispatch: # 允许手动触发
 
 jobs:
